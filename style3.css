@@ -1,0 +1,81 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 30px;
+}
+
+fieldset{
+    border: 2px solid #6a5cff;
+    border-radius: 20px;
+    padding: 40px 25px;
+    position: relative;
+}
+
+legend{
+    background: linear-gradient(to right,#4f7cff,#8a2be2);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 12px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table{
+    width: 100%;
+    border-spacing: 20px 20px;
+}
+
+td{
+    font-size: 18px;
+    font-weight: 600;
+    color: #555;
+    vertical-align: top;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 16px;
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    outline: none;
+    box-sizing: border-box;
+    margin-top: 8px;
+}
+
+input::placeholder{
+    color: #b5b5b5;
+}
+
+input:focus{
+    border-color: #6a5cff;
+    box-shadow: 0 0 8px rgba(106,92,255,0.2);
+}
+
+button{
+    width: 220px;
+    height: 55px;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:first-of-type{
+    background: linear-gradient(to right,#4f7cff,#8a2be2);
+    color: white;
+    margin-left: 250px;
+}
+
+button:last-of-type{
+    background: #f3f3f3;
+    color: #555;
+    margin-left: 20px;
+}
+
+button:hover{
+    opacity: 0.9;
+}
